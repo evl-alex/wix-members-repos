@@ -1,0 +1,44 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+thead {
+    background-color: white;
+}
+
+th {
+    font-size: 1.1em;
+    border-bottom: 1px dashed #787878;
+}
+
+thead td {
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody {
+    border-top: 2px solid black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #dadada;
+}
+
+
+td img {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+td span:hover , td img:hover{
+    cursor: pointer;
+}
