@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import UserRepoContainer from '../decorators/UserRepoContainer';
+import UserRepoContainer from '../containers/UserRepoContainer';
 
 class UserRow extends Component {
    state = { showRepos: false };

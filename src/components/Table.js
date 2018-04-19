@@ -2,8 +2,7 @@ import React from 'react';
 import UserRow from '../components/UserRow'
 import '../css/table.css';
 
-function Table(props) {
-   const {users} = props;
+function Table({ users }) {
    const userList = users.map((user) => {
       return <UserRow key={user.id} avatar={user.avatar_url} login={user.login} repo={user.repos_url}/>
    });
