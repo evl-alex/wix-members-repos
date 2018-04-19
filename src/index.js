@@ -8,8 +8,6 @@ import rootReducer from './reducers';
 import { fetchUsers } from './actions'
 
 const store = createStore( rootReducer, applyMiddleware(thunkMiddleware) );
-const unsubscribe = store.subscribe(() => console.log("State: ", store.getState()));
-console.log(store.getState());
 
 store.dispatch(fetchUsers('https://api.github.com/orgs/wix/members'));
 

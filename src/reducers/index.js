@@ -1,4 +1,3 @@
-import { combineReducers } from 'redux';
 import { REQUEST_USERS, MARK_FETCHING_FAILED, RECEIVE_USERS } from "../actions";
 
 const initialOrgMembersState = {
